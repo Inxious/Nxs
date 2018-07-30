@@ -1,0 +1,156 @@
+[Serial Configuration2]
+serial_mode = 2
+motor_port = COM10
+motor_baudrate = 115200
+heater_port = COM11
+heater_baudrate = 9600
+camera_port = COM9
+camera_baudrate = 9600
+
+[Serial Configuration]
+serial_mode = 2
+motor_port = COM3
+motor_baudrate = 115200
+heater_port = COM8
+heater_baudrate = 9600
+camera_port = COM6
+camera_baudrate = 9600
+
+[Database Configuration1]
+driver = SQL Server Native Client 11.0
+trusted = yes
+server = .
+database = NexusDB
+uid = 
+pwd = 
+
+[Database Configuration]
+driver = SQL Server
+trusted = no
+server = NTSQLREPL
+database = NexusDB
+uid = proces
+pwd = wicdt
+
+[Motor Configuration]
+x_speed = 20
+x_accel = 19
+y_speed = 15
+y_accel = 14
+z_speed = 9
+z_accel = 8
+a_speed = 13
+a_accel = 12
+b_speed = 
+b_accel = 
+c_speed = 9
+c_accel = 8
+r_speed = 1
+r_accel = 0
+
+[Heater Configuration]
+standby = True
+max_value = 39
+min_value = 36
+
+[Rotate Moving Configuration]
+upperrange = 275
+uppermissrange = 335
+lowerrange = 137
+lowermissrange = 70
+
+[Camera Configuration]
+viewtype = User
+
+[Stream Camera Configuration]
+type = Image
+link = http://192.168.76.2:8081
+image = \\192.168.76.2\PiShare\camimage.jpg
+
+[OneImage Configuration]
+bigvalcoordinate = -2200
+lowvalcoordinate = -2900
+
+[SetPipete Configuration]
+main_rotatelimit = 5
+error_rotatelimit = 3
+ajustingrotatevalue = 10
+
+[Serial Configuration2]
+serial_mode = 2
+motor_port = COM10
+motor_baudrate = 115200
+heater_port = COM11
+heater_baudrate = 9600
+camera_port = COM9
+camera_baudrate = 9600
+
+[Serial Configuration]
+serial_mode = 2
+motor_port = COM3
+motor_baudrate = 115200
+heater_port = COM8
+heater_baudrate = 9600
+camera_port = COM6
+camera_baudrate = 9600
+
+[Database Configuration1]
+driver = SQL Server Native Client 11.0
+trusted = yes
+server = .
+database = NexusDB
+uid = 
+pwd = 
+
+[Database Configuration]
+driver = SQL Server
+trusted = no
+server = NTSQLREPL
+database = NexusDB
+uid = proces
+pwd = wicdt
+
+[Motor Configuration]
+x_speed = 20
+x_accel = 19
+y_speed = 15
+y_accel = 14
+z_speed = 9
+z_accel = 8
+a_speed = 13
+a_accel = 12
+b_speed = 
+b_accel = 
+c_speed = 9
+c_accel = 8
+r_speed = 1
+r_accel = 0
+
+[Heater Configuration]
+standby = True
+max_value = 39
+min_value = 36
+
+[Rotate Moving Configuration]
+upperrange = 275
+uppermissrange = 335
+lowerrange = 137
+lowermissrange = 70
+
+[Camera Configuration]
+viewtype = User
+
+[Stream Camera Configuration]
+type = Image
+link = http://192.168.76.2:8081
+image = \\192.168.76.2\PiShare\camimage.jpg
+
+[OneImage Configuration]
+bigvalcoordinate = -2200
+lowvalcoordinate = -2900
+
+[SetPipete Configuration]
+main_rotatelimit = 5
+error_rotatelimit = 3
+ajustingrotatevalue = 10
+
